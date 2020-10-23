@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" 
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center">
+
+    <LinearLayout
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary">
+        
+        <ImageView
+            android:id="@+id/pp_image"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:padding="1dp"
+            android:scaleType="centerCrop"
+            android:background="@color/colorGrey"
+            android:src="@drawable/ic_baseline_person_24"/>
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="40dp">
+
+            <ImageButton
+                android:id="@+id/pp_chat"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_chat_24"
+                android:background="@color/colorPrimary"/>
+
+            <ImageButton
+                android:id="@+id/pp_profile"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:src="@drawable/ic_baseline_info_24"
+                android:background="@color/colorPrimary"/>
+
+        </LinearLayout>
+        
+    </LinearLayout>
+    
+</LinearLayout>

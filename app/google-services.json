@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1011385766748",
+    "firebase_url": "https://chatapp-bd6fb.firebaseio.com",
+    "project_id": "chatapp-bd6fb",
+    "storage_bucket": "chatapp-bd6fb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1011385766748:android:217134a42125175a246799",
+        "android_client_info": {
+          "package_name": "com.example.whatsappclone"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1011385766748-jp6chk7ppskj26u98unlpffidaoh7gph.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD5uAHlo9SOvCwG_69tXVHco5sBBRSi6l0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1011385766748-jp6chk7ppskj26u98unlpffidaoh7gph.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
